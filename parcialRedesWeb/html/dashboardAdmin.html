@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/stylesIndex.css">
+        <title>Parcial Bicicleta Inteligente</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,400&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <div class="o-login">
+        <div class="o-title">
+            <h1 class="o-t1">Smart</h1>
+            <h1 class="o-t2">Bicycle</h1>
+          </div>
+        <form action="../php/buscarOcurrencias.php" method="post">
+          <div class="o-column1">
+            <div class="o-user">
+              <h2 class="o-text1">Objeto Especifico:</h2>
+              <input type="text" name="ObjetoE" /><br />
+            </div>
+          </div>
+          <div class="o-button">
+            <div class="mio1">
+              <input type="submit" value="enviar" />
+            </div>
+          </div>
+        </form>
+        <form action="../php/buscarUltimo.php" method="post">
+            <div class="o-column1">
+              <div class="o-user">
+                <h2 class="o-text1">Objeto Ultimo:</h2>
+                <input type="text" name="ObjetoU" /><br />
+              </div>
+            </div>
+            <div class="o-button">
+              <div class="mio2">
+                  <input type="submit" value="enviar"/>
+              </div>
+            </div>
+          </form>
+      </div>
+      <div class="o-link"><a href="index.html">VOLVER</a></div>
+   
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleAdmin.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,400&display=swap" rel="stylesheet">  
+    <title>Document</title>
+</head>
+<body>
+    <div class="o-title">
+        <h1 class="o-t1">Smart</h1>
+        <h1 class="o-t2">room</h1>
+        <img src="../src/fox.png" />
+      </div>
+      <div class="o-table">
+        <table border ="2px">
+          <tr class="o-row">
+            <th>VARIABLE</th>
+            <th>DESCRIPCION</th>
+          </tr>
+          <tr>
+            <td><a href="../php/temperatura.php">Temperatura</a></td>
+            <td class="o-desc">
+              Magnitud fisica que expresa el grado o nivel de calor de los cuerpos
+              o del ambiente, y cuya unidad en el sistema internacional es el
+              Kelvin(K).
+            </td>
+          </tr>
+          <tr>
+            <td><a href="../php/Movimiento.php">Movimiento</a></td>
+            <td class="o-desc" >Cambio de lugar o de posición de un cuerpo en el espacio.</td>
+          </tr>
+          <tr>
+            <td><a href="../php/Humedad.php">Humedad</a></td>
+            <td class="o-desc">
+              Cantidad de agua, vapor de agua o cualquier otro líquido que está
+              presente en la superficie o el interior de un cuerpo o en el aire.
+            </td>
+          </tr>
+          <tr>
+            <td><a href="../php/Toque.php">tacto o toque</a></td>
+            <td class="o-desc">
+              Sentido corporal mediante el cual se perciben el contacto o la
+              presión de las cosas sobre la piel y se distinguen ciertas
+              cualidades que tienen, como la forma, el tamaño, la rugosidad, la
+              dureza o la temperatura.
+            </td>
+          </tr>
+          <tr>
+            <td><a href="../php/Luz.php">Luz</a></td>
+            <td class="o-desc">
+              Es la parte de la radiación electromagnética que puede ser percibida
+              por el ojo humano.
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <form action="../php/buscarRoom.php" method="post">
+        <div class="o-column1">
+          <div class="o-user">
+            <h2 class="o-text1">Room:</h2>
+            <input type="text" name="Objeto" /><br />
+          </div>
+        </div>
+        <div class="o-button">
+          <div class="mio2">
+              <input type="submit" value="enviar"/>
+          </div>
+        </div>
+      </form>
+
+    </br>
+      <div class="o-link">
+        <a href="../html/index.html">VOLVER</a>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+SQL
+
+    create database smartroom;
+
+CREATE TABLE usuario (
+id_usuario int AUTO_INCREMENT PRIMARY KEY, 
+nombre varchar(30) NOT NULL,
+apellido varchar(30),
+username varchar(30) NOT NULL,
+password varchar(30) NOT NULL
+);
+
+CREATE TABLE datosroom (
+id_datosroom int AUTO_INCREMENT, 
+temperatura int NOT NULL,
+humedad int NOT NULL,
+movimiento int NOT NULL,
+luz int NOT NULL, 
+toque int NOT NULL, 
+fecha varchar(30) NOT NULL,
+hora varchar(30) NOT NULL,
+id_UsuarioDR int NOT NULL,
+primary key (id_datosroom), 
+FOREIGN KEY ( id_UsuarioDR) REFERENCES usuario(id_Usuario));
+
+    SQL Queries in API Rest
+
+ADMIN
+SELECT * FROM datosroom
+SELECT * FROM datosroom where id_DatosRoom = ?
+
+
+USUARIO
+SELECT * FROM usuario where username = ?, password = ?
+SELECT * FROM datosroom where id_UsuarioDR = ?
+
+    SQL Insert
+        Usuario
+
+INSERT INTO usuario (nombre, apellido, username, password) VALUES   (jose, garcia, joseuser, 1234), (juan, ramirez, eljajas, 4321), (juan, parra, elotrojajas, 2134)

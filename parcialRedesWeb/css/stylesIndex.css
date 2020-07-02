@@ -1,0 +1,159 @@
+body {
+    font-family: "Roboto";
+    background-image: url("../src/fondo.png");
+  }
+  
+  .o-title {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+  }
+  .o-t1{
+      color: rgb(48, 96, 34);
+      
+    }
+    .o-t2{
+      color: gray;
+      
+    }
+
+  .o-login {
+    width: 30%;
+    margin: 1rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+  }
+  .o-column1 {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .o-user {
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 0rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+  }
+  
+  .o-pwd {
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 0rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: space-around;
+    font-size: 12px;
+  }
+  .o-user input {
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid gray;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 0rem;
+    outline: none;
+    box-shadow: none;
+    
+  }
+  .o-pwd input {
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid gray;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 0rem;
+    outline: none;
+    box-shadow: none;
+    
+  }
+  
+  .o-text1 {
+    margin-right: 4.5rem;
+  }
+  .o-text2 {
+    margin-right: 2rem;
+  }
+  .o-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .o-send {
+    margin: 1rem;
+    margin-bottom: 0.4rem;
+  }
+  .o-send input {
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(48, 96, 34);
+    border: none;
+    color: #ffffff;
+   
+  }
+  .o-reset input {
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(48, 96, 34);
+    outline: none;
+  
+    border: none;
+    color: #ffffff;
+  }
+  .o-reset {
+    margin: 1rem;
+  }
+  .mio1 input{
+    border-radius: 10px;
+    width: 190px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(48, 96, 34);
+    border: none;
+    color: #ffffff;
+
+  }
+
+  .mio2 input{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(48, 96, 34);
+    border: none;
+    color: #ffffff;
+  
+  }
+  

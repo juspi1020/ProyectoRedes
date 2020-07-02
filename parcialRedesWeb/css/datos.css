@@ -1,0 +1,74 @@
+body{
+    font-family: "Roboto";
+    background-image: url("../src/fondo.png");
+}
+.o-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+  }
+  .o-subtitle{
+
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    color: grey;
+      
+
+  }
+  .o-t1{
+    color: rgb(48, 96, 34);
+    
+  }
+  .o-t2{
+    color: gray;
+    
+  }
+.o-title img{
+    margin-left: 2rem;
+    width: 50px;
+    height: 50px;
+    margin-top: 5rem;
+  }
+.o-big{
+   
+    margin-top: 5rem;
+}
+.o-table{
+    
+    margin-top:2rem;
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+    
+    
+}
+.o-table table{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    font-family: roboto;
+    background-color: rgb(48, 96, 34);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 3px 3px 3px 3px rgb(48, 96, 34) ; 
+    
+}
+.o-link {
+    width: 7%;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+    margin-left:0rem;
+    
+}
+
